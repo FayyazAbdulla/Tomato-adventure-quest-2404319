@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #780e0e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.HomeHeadign {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5rem;
+  color: #f48a00;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.Homeplay-game-button,
+.home-button {
+  background-color: #e58d0a;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Homeplay-game-button:hover,
+.home-button:hover {
+  background-color: #6c1111;
+}

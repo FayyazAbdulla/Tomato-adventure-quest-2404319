@@ -1,0 +1,40 @@
+/* navbar.css */
+
+.guestbtn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .guestbtn-group {
+  animation: heartbeat 1s infinite; /* Apply heartbeat animation */
+}
+
+@keyframes heartbeatt {
+  0% {
+    transform: scale(1); /* Start at normal size */
+  }
+  50% {
+    transform: scale(1.1); /* Increase size halfway through animation */
+  }
+  100% {
+    transform: scale(1); /* Return to normal size */
+  }
+}
+
+  
+  .guestbtn-group .gstbutton {
+    padding: 20px 40px;
+    background-color: #ff8800;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 30px;
+  }
+  
+  .guestbtn-group .gstbutton:hover {
+    background-color: #eadb0b;
+  }
+  

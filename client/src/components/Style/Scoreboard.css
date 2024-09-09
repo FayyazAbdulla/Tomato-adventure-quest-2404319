@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive; /* Game-related font family */
+}
+
+.background-div {
+  background-color: #c52525; /* Background color for the container */
+  min-height: 100vh; /* Minimum height to cover the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.heading-text {
+  font-family: "Comic Sans MS", cursive; /* Game-related font family */
+  color: #ffa600; /* Change font color */
+  position: absolute; /* Set position to absolute */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  margin: 50px 50px; /* Add some margin */
+  font-size: 80px;
+}
+
+.scoreboard-table {
+  width: 80%; /* Set the table width */
+  margin-top: 20px; /* Add margin from the top */
+  border-collapse: collapse;
+  
+}
+
+.scoreboard-table:hover{
+  transform: scale(2.0);
+}
+
+
+.scoreboard-table th,
+.scoreboard-table td {
+  padding: 12px; /* Set padding for cells */
+  border: 1px solid #fff; /* Set border color */
+  text-align: center; /* Center align text */
+  color: white; /* Text color */
+}
+
+.scoreboard-table th {
+  background-color: #881717; /* Header background color */
+}
+
+.scoreboard-table tbody tr:nth-child(even) {
+  background-color: #b02020; /* Background color for even rows */
+}
+
+.scoreboard-table tbody tr:hover {
+  background-color: #d82c2c; /* Background color on hover */
+}
+
+.btn-primary {
+  /* Existing styles */
+  background-color: #ff9d00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s; /* Add transition for smooth animation */
+}
+ 
+/* Add hover animation */
+.btn-primary:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  background-color: #a1600a;
+}
+
+/* Add a special class for the first three rows */
+.scoreboard-table tbody tr.special {
+  background-color: #e2540d; /* Background color for special rows */
+  font-weight: bold; /* Make text bold for special rows */
+}
+
+/* Style for the special rows on hover */
+.scoreboard-table tbody tr.special:hover {
+  background-color: #80ff00; /* Change background color on hover */
+}
+

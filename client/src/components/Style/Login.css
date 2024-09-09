@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  body {
+    background-color: #c52525;
+    font-family: Montserrat;
+    /* overflow-x: hidden; */
+  }
+  
+  article,
+  aside,
+  details,
+  figure,
+  footer,
+  header,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+  
+  img {
+    border: none;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .bg-illustration {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("https://i.ibb.co/RhMZprS/jony-Image2-1.png") no-repeat center center scroll;
+    background-size: cover;
+  }
+  
+  .bg-illustration img {
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgba(255, 0, 0, 0.2); /* Transparent red background */
+  }
+  
+  .login-form {
+    width: 505px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .login-form h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    font-size: 16px;
+    background-color: rgba(57, 57, 57, 0.07);
+    margin: 12.5px auto; /* Center the input tags */
+    width: calc(100% - 60px); /* Adjust width as needed */
+    height: 68px;
+    border: none;
+    padding: 0 30px;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .login-form button[type="submit"] {
+    background: linear-gradient(-20deg, #91041b 0%, #a37429 100%);
+    border: none;
+    margin: 30px auto; /* Center the button */
+    width: 241px;
+    height: 58px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+  }
+  
+  .login-form button[type="submit"]:hover::after {
+    opacity: 1;
+  }
+  
+ 
+  .remember-form {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .remember-form input[type="checkbox"] {
+    margin-top: 9px;
+  }
+  
+  .remember-form span {
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    top: 32px;
+    color: #3b3b3b;
+    margin-left: 15px;
+  }
+  
+  .forget-pass {
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+  }
+  
+  .forget-pass a {
+    font-size: 16px;
+    position: relative;
+    font-weight: normal;
+    color: #918f8f;
+  }
+  
+  .forget-pass a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100px;
+    background: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    bottom: -4px;
+    left: 0;
+    transition: 0.3s;
+    opacity: 0;
+    right: 0;
+  }
+  
+  .forget-pass a:hover::after {
+    opacity: 1;
+  }
+  

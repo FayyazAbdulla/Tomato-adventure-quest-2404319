@@ -1,0 +1,101 @@
+.about-game-container {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .heading-container {
+    margin-bottom: 20px;
+  }
+  
+  .game-instruction-heading {
+    font-family: 'Press Start 2P', cursive; /* Font with a pixelated style */
+    font-size: 6rem; /* Adjust font size as needed */
+    color: #ff9800; /* White text color */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Adding a shadow for depth */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  
+  .instruction-list-container {
+    margin-bottom: 20px;
+  }
+  
+  .instruction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .instruction-item {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .play-game-button,
+  .home-button {
+    background-color: #ed6e05;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 80px;
+  }
+
+  .play-game-button{
+    animation: heartbeat 0.5s infinite alternate, rainbow 6s infinite;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: hsl(0, 100%, 50%);
+    }
+    16.666% {
+      background-color: hsl(60, 100%, 50%);
+    }
+    33.333% {
+      background-color: hsl(120, 100%, 50%);
+    }
+    50% {
+      background-color: hsl(180, 100%, 50%);
+    }
+    66.666% {
+      background-color: hsl(240, 100%, 50%);
+    }
+    83.333% {
+      background-color: hsl(300, 100%, 50%);
+    }
+    100% {
+      background-color: hsl(360, 100%, 50%);
+    }
+  }
+
+
+  
+  .play-game-button:hover,
+  .home-button:hover {
+    background-color: #ff9800; /* Change background color on hover */
+    color: #000000; /* Change text color on hover */
+    border: 2px solid #ff9800; /* Add border on hover */
+  }
+  
+  

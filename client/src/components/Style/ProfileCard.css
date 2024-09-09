@@ -1,0 +1,60 @@
+/* ProfileCard.css */
+
+.profile-card {
+  width: 600px;
+  padding: 90px 80px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #610202;
+}
+
+.profile-card h2 {
+  margin-bottom: 80px;
+  font-size: 54px;
+  font-weight: bold;
+  color: #fa9200;
+  font-family: "Press Start 2P", cursive;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 25px;
+  color: #fa9200;
+  font-family: "Press Start 2P", cursive;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px; /* Increased padding */
+  font-size: 18px; /* Increased font size */
+  border-radius: 20px; /* Rounded corners */
+  border: 2px solid #a00b0b; /* Custom border color */
+  outline: none; /* Remove default input outline */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+button {
+  background-color: #ffa200;
+  color: #fff;
+  padding: 12px 24px; /* Increased padding */
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 18px; /* Example font size */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  margin: 0 auto; /* Align button to center */
+  display: block; /* Ensure the button takes full width */
+}
+
+
+button:hover {
+  background-color: #1aff00;
+}

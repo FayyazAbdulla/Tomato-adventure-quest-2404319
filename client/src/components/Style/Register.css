@@ -1,0 +1,114 @@
+/* Register.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  background-color: #c52525;
+  font-family: Montserrat;
+  /* overflow-x: hidden; */
+}
+
+article,
+aside,
+details,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg-illustration {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* background: url(" ") no-repeat center center scroll; */
+  background-size: cover;
+}
+
+.bg-illustration img {
+  width: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: auto;
+  margin: 20px auto;
+}
+
+.Register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#c52525; /* Initial background color */
+  animation: backgroundShadeAnimation 5s infinite; /* Apply background color shade animation */
+  border-radius: 60px;
+}
+
+.login-form {
+  width: 485px;
+  height: 765px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  border-radius: 60px;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.home-button {
+  background-color: #007bff; /* Change to desired color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3; /* Change to desired color on hover */
+}
+

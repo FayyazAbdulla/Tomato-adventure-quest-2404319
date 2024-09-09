@@ -1,0 +1,73 @@
+img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline spacing */
+  margin: 0 auto; /* Center the image horizontally */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.questiontitle {
+  font-family: "Comic Sans MS", cursive; /* Game-related font family */
+  color: #ffa600; /* Change font color */
+  position: absolute; /* Set position to absolute */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  margin: 50px 50px; /* Add some margin */
+  font-size: 80px;
+}
+
+.answerboxwithbutton input[type="number"] {
+    width: 100%; /* Set input width to fill its container */
+    padding: 10px ; /* Add padding for spacing inside the input */
+    margin-bottom: 15px; /* Add some spacing between inputs */
+    border: 5px solid #ef9309; /* Add a border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the input's total width */
+  }
+  
+  .answerboxwithbutton input[type="number"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .answerboxwithbutton button {
+    padding: 20px 40px; /* Add padding for button */
+    background-color: #ff8800; /* Set button background color */
+    font-weight: bold; 
+    font-family: "Comic Sans MS", cursive; /* Game-related font family */
+    color: #010101; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .answerboxwithbutton button:hover {
+    background-color: #fcf400; /* Change button background color on hover */
+  }
+  
+  .answerboxwithbutton:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  .Quiz-image {
+    border: 20px solid #e59007;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add transition for smooth effects */
+    box-shadow: 
+      0px 0px 10px rgba(0, 0, 0, 0.5), /* Original shadow */
+      0px 0px 10px rgba(255, 255, 255, 0.5) inset; /* Bevel shadow */
+  }
+  
+  .Quiz-image:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  .Quiz-image img {
+    opacity: 0.9; /* Set initial opacity */
+  }
+  
+  .Quiz-image:hover img {
+    opacity: 1; /* Set full opacity on hover */
+  }
+  

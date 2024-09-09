@@ -1,0 +1,33 @@
+/* Button Style */
+.Playbarbtn {
+  padding: 10px 20px;
+  background-color: #ffae00;
+  color: #000000;
+  border: none;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px; /* Adjust margin as needed */
+  padding: 15px 32px;
+}
+
+.Playbarbtn:hover {
+  background-color: #ff4800;
+}
+
+.logout-btn{
+  background-color: #ff0000;
+}
+
+.PlayNavBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto; /* Adjust width as needed */
+  padding: 60px 60px; /* Padding for navbar content */
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  z-index: 999;
+}

@@ -1,0 +1,34 @@
+
+
+  /* logoutAnimation.css */
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    75% {
+        opacity: 0.75;
+      }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .logout-button {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: blink 1s infinite;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff0000;
+  }
+  

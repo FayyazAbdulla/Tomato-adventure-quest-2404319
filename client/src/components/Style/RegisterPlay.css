@@ -1,0 +1,107 @@
+/* CSS */
+.heading-textt {
+  font-family: "Comic Sans MS", cursive; /* Game-related font family */
+  color: #ffa600; /* Change font color */
+  position: absolute; /* Set position to absolute */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  margin: 50px 50px; /* Add some margin */
+  font-size: 50px;
+} 
+
+.tomato-input {
+  padding: 10px;
+  border: 5px solid rgb(248, 166, 4);
+  border-radius: 20px;
+  font-size: 16px;
+  width: 210px; /* Adjust width as needed */
+}
+
+.tomato-input:focus {
+  outline: none;
+  border-color: rgb(255, 167, 3);
+}
+
+.tomato-input::placeholder {
+  color: rgb(15, 15, 15);
+}
+
+
+.tomato-button {
+  padding: 10px 20px;
+  background-color: rgb(237, 158, 9);
+  border: none;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tomato-button:hover {
+  background-color: rgb(106, 249, 3);
+}
+
+.tomato-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px tomato;
+}
+
+.timerslot {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  border-radius: 50%; /* Creates the round shape */
+  background: radial-gradient(circle closest-side, #f5c252 50%, #e24e2b);
+  display: flex;
+  align-items: center;  /* Aligns items vertically to the center */
+  justify-content: center; /* Aligns items horizontally to the center */
+  padding: 40px;
+}
+.timerslot p {
+  display: table-cell; /* Emulates table-cell behavior for the p tag */
+  vertical-align: middle;
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* Styling for the container div */
+.timer-lives-container {
+  border: 3px solid #e59007;  /* Adds a subtle border */
+  padding: 0.5px;           /* Adds space around the content */
+  margin-bottom: 50px;     /* Adds space below the container */
+  border-radius: 50px;      /* Slightly rounds the corners */
+}
+ 
+/* Styling for the nested <p> tag */
+.timer-lives-container p {
+  margin: 0;               /* Removes default paragraph margins */
+  text-align: center;      /* Centers the LifeBar component */
+}
+
+.game-image {
+  border: 5px solid #e59007; /* Set border */
+  border-radius: 60px; /* Set border radius */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add transition for smooth effects */
+}
+
+/* Shadow Effects */
+.game-image:hover {
+  box-shadow: 
+    0px 0px 10px rgba(0, 0, 0, 0.5), /* Original shadow */
+    0px 0px 10px rgba(255, 255, 255, 0.5) inset; /* Bevel shadow */
+}
+
+/* Hover Effects */
+.game-image:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+
+/* Opacity and Transparency */
+.game-image {
+  opacity: 0.9; /* Set initial opacity */
+}
+
+.game-image:hover {
+  opacity: 1; /* Set full opacity on hover */
+}
+
